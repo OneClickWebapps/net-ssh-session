@@ -8,12 +8,12 @@ Gem::Specification.new do |s|
   s.homepage    = "https://github.com/sosedoff/net-ssh-session"
   s.authors     = ["Dan Sosedoff"]
   s.email       = ["dan.sosedoff@gmail.com"]
-  
+
   s.add_development_dependency 'rake',      '~> 10'
   s.add_development_dependency 'rspec',     '~> 2.14'
   s.add_development_dependency 'simplecov', '~> 0.7'
 
-  s.add_dependency 'net-ssh', '~> 2.6'
+  s.add_dependency 'net-ssh', '~> 6.1'
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
